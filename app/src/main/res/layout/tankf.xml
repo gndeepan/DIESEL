@@ -1,0 +1,73 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/mainnn"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/moni"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="20dp"
+			android:background="@drawable/main"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="5dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="DIESEL TANK"
+				android:textSize="40sp"
+				android:textStyle="bold"
+				android:textColor="#15096F" />
+			<TextView
+				android:id="@+id/monitor"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="       "
+				android:textSize="20sp"
+				android:textColor="#47004E" />
+			<LinearLayout
+				android:id="@+id/linear1"
+				android:layout_width="match_parent"
+				android:layout_height="400dp"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical"
+				android:layout_gravity="center_horizontal|center_vertical" />
+			<TextView
+				android:id="@+id/distitle"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Percentage"
+				android:textSize="16sp"
+				android:textColor="#595399" />
+			<TextView
+				android:id="@+id/lastvalu"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Loading"
+				android:textSize="25sp"
+				android:textColor="#15096F" />
+			<TextView
+				android:id="@+id/timee"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Time"
+				android:textSize="16sp"
+				android:textColor="#595399" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
